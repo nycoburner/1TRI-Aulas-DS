@@ -3,8 +3,7 @@ while True:
     print("1 - Facil")
     print("2 - Medium")
     print("3 - Dificil")
-    print("5- Sair 5")
-    opção = input("Digite a opção que deseja(1 a 5)")
+    opção = input("Digite a opção que deseja(1 a 3)")
 
     if opção == "1":
         print("Selecionado opção 1!")
