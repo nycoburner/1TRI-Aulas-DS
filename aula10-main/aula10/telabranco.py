@@ -1,0 +1,15 @@
+from conta import conta
+conta1 = conta("Nycolas", 1234, "1208-7")
+conta1.extrato()
+conta1.deposito(1000)
+conta1.extrato()
+conta1.saque(200)
+conta1.saque(1500)
+conta1.extrato()
+conta2 = conta('Ricardinho', 1234, '7070-7')
+conta2.extrato()
+conta1.transferir(300, conta2)
+conta1.extrato()
+conta2.extrato()
+conta2.titular = 'Ricardinho'
+print(f'ola, {conta2.titular}! \nAgencia: {conta2.agencia} \nnumero: {conta2.numero}')
