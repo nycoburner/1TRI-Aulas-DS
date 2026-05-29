@@ -15,11 +15,14 @@ app.geometry("400x300")
 
 label_email = tk.Label(app,text="Email:")
 label_email.pack(pady=5)
-input_email= tk.Entry(app, show="*")
+input_email = tk.Entry(app)
 input_email.pack()
 
 label_senha = tk.Label(app,text="Senha:")
 label_senha.pack(pady=5)
+input_senha = tk.Entry(app, show="*")
+input_senha.pack()
+
 
 
 botao = tk.Button(app, text="Enviar", command=login)
